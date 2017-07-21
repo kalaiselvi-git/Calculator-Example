@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15028" started-at="2017-07-21T06:46:25Z" finished-at="2017-07-21T06:46:40Z">
+    <groups>
+    </groups>
+    <test name="ChromeTestcases" duration-ms="10141" started-at="2017-07-21T06:46:25Z" finished-at="2017-07-21T06:46:35Z">
+      <class name="CrossBrowsers.Calculator">
+        <test-method status="PASS" signature="testcalc(java.lang.String)[pri:0, instance:CrossBrowsers.Calculator@649d209a]" name="testcalc" is-config="true" duration-ms="5986" started-at="2017-07-21T12:16:25Z" finished-at="2017-07-21T12:16:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcalc -->
+        <test-method status="PASS" signature="calculatePercent()[pri:0, instance:CrossBrowsers.Calculator@649d209a]" name="calculatePercent" duration-ms="4134" started-at="2017-07-21T12:16:31Z" finished-at="2017-07-21T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatePercent -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:CrossBrowsers.Calculator@649d209a]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2017-07-21T12:16:35Z" finished-at="2017-07-21T12:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CrossBrowsers.Calculator -->
+    </test> <!-- ChromeTestcases -->
+    <test name="firefoxTestcases" duration-ms="15028" started-at="2017-07-21T06:46:25Z" finished-at="2017-07-21T06:46:40Z">
+      <class name="CrossBrowsers.Calculator">
+        <test-method status="PASS" signature="testcalc(java.lang.String)[pri:0, instance:CrossBrowsers.Calculator@47fd17e3]" name="testcalc" is-config="true" duration-ms="9039" started-at="2017-07-21T12:16:25Z" finished-at="2017-07-21T12:16:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcalc -->
+        <test-method status="PASS" signature="calculatePercent()[pri:0, instance:CrossBrowsers.Calculator@47fd17e3]" name="calculatePercent" duration-ms="5986" started-at="2017-07-21T12:16:34Z" finished-at="2017-07-21T12:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatePercent -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:CrossBrowsers.Calculator@47fd17e3]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2017-07-21T12:16:40Z" finished-at="2017-07-21T12:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CrossBrowsers.Calculator -->
+    </test> <!-- firefoxTestcases -->
+  </suite> <!-- Suite -->
+</testng-results>

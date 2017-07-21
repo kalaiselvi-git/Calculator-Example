@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="ChromeTestcases(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="CrossBrowsers.Calculator">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="calculatePercent"/>
+          <include name="testcalc"/>
+        </methods>
+      </class> <!-- CrossBrowsers.Calculator -->
+    </classes>
+  </test> <!-- ChromeTestcases(failed) -->
+  <test name="firefoxTestcases(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="CrossBrowsers.Calculator">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="calculatePercent"/>
+          <include name="testcalc"/>
+        </methods>
+      </class> <!-- CrossBrowsers.Calculator -->
+    </classes>
+  </test> <!-- firefoxTestcases(failed) -->
+</suite> <!-- Failed suite [Suite] -->
